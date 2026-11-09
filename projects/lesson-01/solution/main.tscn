@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[node name="Main" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.99, 0.82, 0.35, 1)
+
+[node name="Message" type="Label" parent="."]
+offset_left = 300.0
+offset_top = 290.0
+offset_right = 850.0
+offset_bottom = 350.0
+theme_override_font_sizes/font_size = 48
+text = "Hello, I am Alex!"

@@ -1,0 +1,10 @@
+# Keep line endings as LF on every system (Godot reads LF on Windows too)
+* text=auto eol=lf
+
+# Binary files: never change them
+*.wav binary
+*.ogg binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
